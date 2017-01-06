@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week 9 Lab - Task Two</title>
+        <meta charset="utf-8">
+		
+		<link href="style.css" rel="stylesheet">
+
+    </head>
+    <body>
+		<div id="wrapper">
+        <h2>Liquid Converter</h2>
+        <div id="error"></div>
+		<form id="form_id" name="convertForm" method="POST" action="week9labTask2.php">
+		<div id="content">
+		
+		<table border="0">
+           <tr>
+              <td colspan="2">
+                 This form will convert...
+                 <ul>
+                    <li>Liters to Gallons or</li>
+                    <li>Gallons to Litres</li>
+                 </ul>
+              </td>
+           <tr>
+              <td>Conversion Amount</td>
+              <td><input type="text" name="convertAmt" id="convertAmt" size="6" maxlength="6"></td>
+           </tr>
+           <tr>
+              <td>Convert To</td>
+              <td>
+                 <select name="convertTo" id="convertTo">
+                    <option value="liters">Liters</option>
+                    <option value="gallons">Gallons</option>
+                 </select>
+              </td>
+           </tr>
+        </table>
+		</div>
+		
+		<div id="footer">
+			<input type="submit" name="btnSubmit" id="btnSubmit" value="Submit Order">
+			&nbsp;&nbsp;&nbsp;
+			<input type="reset" name="btnReset" id="btnReset" value="Reset Order">
+		</div>
+		
+		
+		</form>
+	</div>
+		
+		
+    </body>
+</html>
